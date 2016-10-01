@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.ryan.project0.MainActivity">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/height_title"
+
+        android:layout_marginTop="@dimen/margin_top_title"
+        android:layout_gravity="center_horizontal"
+
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="@dimen/text_size_title"
+        android:text="My Nanodegree Apps!"
+
+/>
+
+    <Button
+        android:id="@+id/btn1"
+
+        android:text="POPULAR MOVIES"
+        style="@style/btn_style" />
+    <Button
+        android:id="@+id/btn2"
+
+        android:text="STOCK HAWK"
+        style="@style/btn_style" />
+    <Button
+        android:id="@+id/btn3"
+
+        android:text="BUILD IT BIGGER"
+        style="@style/btn_style" />
+    <Button
+        android:id="@+id/btn4"
+
+        android:text="MAKE YOUR APP MATERIAL"
+        style="@style/btn_style" />
+    <Button
+        android:id="@+id/btn5"
+
+        android:text="GO UBIQUITOUS"
+        style="@style/btn_style" />
+    <Button
+        android:id="@+id/btn6"
+
+        android:text="CAPSTONE"
+        style="@style/btn_style" />
+</LinearLayout>
